@@ -1,0 +1,145 @@
+/* ELEMENTI GENERALI */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+}
+
+/* HEADER */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 2vh 0;
+
+}
+
+button {
+    background-color: #f04c2f;
+    font-family:  'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    padding: 14px 30px;
+    border: none;
+    margin: 4vh 0;
+    border-radius: 4px;
+    
+}
+
+.headerlogo {
+    text-align: center;
+    background-color: black;
+    padding: 5vh 0;
+}
+
+.logo {
+    width: 20vh;
+}
+
+.hero {
+    background-image: url(../images/banner.jpg);
+    text-align: center;
+    padding: 3vh 4vh;
+}
+
+/* MAIN */
+
+p, h3, h2 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 5vh 0;
+}
+
+h3 {
+    font-weight: 700;
+    margin: 4vh 0;
+}
+
+blockquote {
+    color: white;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+h4 {
+    color: white;
+    margin-top: 4vh;
+}
+
+h5 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 3vh;
+}
+
+.maincontainer {
+    padding: 6vh 5vh;
+}
+
+.roundimage-container {
+    width: 70vw;
+    height: 70vw;
+    margin: 3vh auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.roundimage {
+    height: 70vw;
+}
+
+.quotesection {
+    background-color: #e22d0e;
+    padding: 6vh 0;
+    margin-bottom: 8vh;
+}
+
+.authorprofession {
+    color: white;
+    font-size: 0.9rem;
+    margin: 1vh 0;
+}
+
+.card {
+    overflow: hidden;
+    width: 85%;
+    margin: 4vh auto;
+    border-radius: 3px;
+    border: 1px solid #dee1e3;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    margin: 2vh 2vh 6vh 2vh;
+    font-weight: 400;
+}
+
+/* 
+body: #393d41 - 1.2rem - 1.65 di interlinea
+footer: #c8e7f0
+footer link: #c8e7f0
+pulsante: #f04c2f montserrat bold
+Testimonianze: #e22d0e
+Footer: #25a2c3
+Bordo schede: #dee1e3
+*/
