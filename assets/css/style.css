@@ -49,6 +49,8 @@ button {
 
 .hero {
     background-image: url(../images/banner.jpg);
+    background-size: 150%;
+    background-position: 50%;
     text-align: center;
     padding: 3vh 4vh;
 }
@@ -132,6 +134,37 @@ h5 {
 .card p {
     margin: 2vh 2vh 6vh 2vh;
     font-weight: 400;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #28A2CA;
+    padding: 3vh 0;
+    color: white;
+}
+
+footer p {
+    font-size: 1rem;
+    margin:4vh 0;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+i {
+    color: white;
+    padding: 0 0.5vh;
+}
+
+hr {
+    margin: 6vh auto;
+    width: 60%;
+}
+
+.maps {
+    text-decoration: none;
 }
 
 /* 
